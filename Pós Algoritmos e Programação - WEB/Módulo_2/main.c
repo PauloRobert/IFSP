@@ -31,7 +31,7 @@ int main() {
      total2 = dose2 * vezes2;
 
 
-     // Treceiro Medicamento
+     // Terceiro Medicamento
       printf("\nMedicamento 3:\n");
       printf("Nome: ");
       scanf("%s", medicamento3);
