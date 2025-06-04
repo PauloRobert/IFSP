@@ -7,7 +7,7 @@ int main() {
     float total1, total2, total3, totalGeral;
 
     printf("=== CONTROLE DE MEDICAMENTOS ===\n");
-        printf("Nome do paciente: ");
-        fgets(nomePaciente, sizeof(nomePaciente), stdin); // captura nome com espaços
+    printf("Nome do paciente: ");
+    fgets(nomePaciente, sizeof(nomePaciente), stdin); // captura nome com espaços
 
 }
