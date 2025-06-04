@@ -10,4 +10,14 @@ int main() {
     printf("Nome do paciente: ");
     fgets(nomePaciente, sizeof(nomePaciente), stdin); // captura nome com espaços
 
+     // Medicamento 1
+     printf("\nMedicamento 1:\n");
+     printf("Nome: ");
+     scanf("%s", medicamento1);
+     printf("Dose por vez (mg): ");
+     scanf("%f", &dose1);
+     printf("Número de vezes ao dia: ");
+     scanf("%f", &vezes1);
+     total1 = dose1 * vezes1;
+
 }
