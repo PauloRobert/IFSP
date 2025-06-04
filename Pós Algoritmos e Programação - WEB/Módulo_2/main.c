@@ -20,4 +20,14 @@ int main() {
      scanf("%f", &vezes1);
      total1 = dose1 * vezes1;
 
+     // Segundo Medicamento
+     printfSegundoo\nMedicamento 2:\n");
+     printfSegundooNome: ");
+     scanfSegundoo%s", medicamento2);
+     printfSegundooDose por vez (mg): ");
+     scanfSegundoo%f", &dose2);
+     printfSegundooNúmero de vezes ao dia: ");
+     scanfSegundoo%f", &vezes2);
+     total2 = dose2 * vezes2;
+
 }
