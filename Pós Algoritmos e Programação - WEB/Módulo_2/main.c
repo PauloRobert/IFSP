@@ -41,4 +41,12 @@ int main() {
       scanf("%f", &vezes3);
       total3 = dose3 * vezes3;
 
+      // Cálculo total
+      totalGeral = total1 + total2 + total3;
+
+      // Resultado
+      printf("\n=== RELATÓRIO DE USO ===\n");
+      printf("Total de medicamentos por dia: %.2f mg\n", totalGeral);
+
+
 }
