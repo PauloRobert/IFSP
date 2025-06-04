@@ -1,5 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    return 0;
+    char nomePaciente[100];
+    printf("Nome do paciente: ");
+    fgets(nomePaciente, sizeof(nomePaciente), stdin);
 }
