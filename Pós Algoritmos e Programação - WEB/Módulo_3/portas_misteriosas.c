@@ -14,6 +14,9 @@ int main() {
             printf("Escolha uma porta (1, 2 ou 3): ");
             scanf("%d", &escolha);
 
+            printf("Você escolheu a porta %d\n", escolha);
+            vidas--; // teste para ver o loop funcionar
+
         }
 
         printf("Fim de jogo! Sua pontuação final foi: %d\n", pontos);
