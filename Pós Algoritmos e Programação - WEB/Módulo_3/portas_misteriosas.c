@@ -10,7 +10,9 @@ int main() {
     printf("Você tem 3 vidas. Escolha a porta certa para ganhar pontos!\n");
 
     while (vidas > 0) {
+
             printf("Escolha uma porta (1, 2 ou 3): ");
+            scanf("%d", &escolha);
 
         }
 
